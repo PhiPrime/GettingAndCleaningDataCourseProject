@@ -15,12 +15,11 @@ This project includes:
 * *LICENSE* - A standard MIT License for this project  
 * *README.md* - this document  
 * *UCI_HAR_Dataset_Summary.txt* - the output when *run_analysis.R* is executed  
-* *run_analysis.R* - performs the following steps:
+* *run_analysis.R* - performs the following steps:  
         0) 
-                * Check for UCI directory & create path names
-                * Load plyr & dplyr packages
+                * Check for UCI directory & create path names  
+                * Load plyr & dplyr packages  
                 * Load in the "train" and the "test" data sets  
-                
         1) Merge the training and the test sets to create one data set.  
         2) Extract only the measurements on the mean and standard deviation 
                 for each measurement.  
