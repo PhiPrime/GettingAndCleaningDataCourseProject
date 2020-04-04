@@ -139,6 +139,6 @@ run_analysis <- function() {
                       summarize,
                       mean = mean(mean), mean_of_sd = mean(standard_deviation))
 
-        write.csv(summary, "./UCI_HAR_Dataset_Summary.csv")
+        write.table(summary, "./UCI_HAR_Dataset_Summary.txt", row.name = FALSE)
 }
 run_analysis()

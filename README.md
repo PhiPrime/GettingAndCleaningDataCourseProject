@@ -14,7 +14,7 @@ This project includes:
                         file, *UCI_HAR_Dataset_Summary.csv*.  
 * *LICENSE* - A standard MIT License for this project  
 * *README.md* - this document  
-* *UCI_HAR_Dataset_Summary.csv* - the output when *run_analysis.R* is executed  
+* *UCI_HAR_Dataset_Summary.txt* - the output when *run_analysis.R* is executed  
 * *run_analysis.R* - performs the following steps:
         0) 
                 * Check for UCI directory & create path names
