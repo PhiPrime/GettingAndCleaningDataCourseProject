@@ -16,7 +16,7 @@ This project includes:
 * *README.md* - this document  
 * *UCI_HAR_Dataset_Summary.txt* - the output when *run_analysis.R* is executed  
 * *run_analysis.R* - performs the following steps:  
-        0) 
+        0)  
                 * Check for UCI directory & create path names  
                 * Load plyr & dplyr packages  
                 * Load in the "train" and the "test" data sets  
